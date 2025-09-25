@@ -1,38 +1,38 @@
-# Hi there! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
+<p>
+  <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=EsraaGebreal&show_icons=true&hide_border=false&line_height=20&title_color=f69673&icon_color=1b93c9&show_owner=true"/>
+</p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/esraa-gebreal" target="_blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn" height="30" width="30" />
-  </a>&nbsp;
-  <a href="https://twitter.com/YOUR_TWITTER" target="_blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Twitter" height="30" width="30" />
-  </a>&nbsp;
-  <a href="http://discord.com/users/YOUR_DISCORD" target="_blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="Discord" height="40" width="30" />
-  </a>
+<p>
+  <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-23A9F2?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Github-181717?style=flat-square&logo=GitHub&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Git-F44D27?style=flat-square&logo=Git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-MySQL-F29111?style=flat-square&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Data%20Engineering-0A66C2?style=flat-square&logo=Apache-Spark&logoColor=white"/>
 </p>
 
 ---
 
-### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
-- 🏗️ I’m a **Data Engineer** passionate about building scalable data pipelines & platforms  
-- 📝 I share insights about data engineering, ETL, and big data tools  
-- 💻 I use daily: **Python**, **SQL**, **Spark**, **Airflow**, **Kafka**  
-- ☁️ Exploring **Cloud Data Warehousing (Azure / AWS / GCP)**  
-- 📖 Currently learning **Data Modeling & Streaming Systems**  
-- 💬 Ask me about **ETL, Big Data, Databases, Cloud, Data Pipelines**  
-- ⚡ Fun fact: I love turning raw data into actionable insights 📊  
+<p>
+  📬 How to reach me:<br/>
+  <a href="mailto:esraa.gebreal@gmail.com"><img src="https://img.shields.io/badge/e-mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/esraa-gebreal/"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/EsraaGebreal"><img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
 
 ---
 
-### 🧑‍💻 Tech Stack :
-<p align="center">
-  <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="python" width="55" height="55"/>
-  <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-ar21.svg" alt="spark" width="90" height="55"/>
-  <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="55" height "55"/>
-  <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="55" height="55"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="55" height="55"/>
-  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="mysql" width="55" height="55"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5" width="55" height="55"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3" width="55" height="55"/>
+<h3>⚡ About Me</h3>
+<p>
+  👩‍💻 I'm <b>Esraa Gebreal</b>, passionate about <b>Data Engineering</b>, <b>Python</b>, and <b>Cloud Platforms</b>.<br/>
+  🎯 Exploring <b>ETL pipelines, Spark, SQL/NoSQL, APIs</b>.<br/>
+  💼 Open to <b>internships & collaborations</b> in Data Engineering & Software Development.<br/>
 </p>
+
+---
+
+<details>
+  <summary>📊 GitHub Stats</summary><br/>
+  <img src="https://github-readme-stats.vercel.app/api
