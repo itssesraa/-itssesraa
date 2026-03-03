@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Beauty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- top bar -->
+<div class="bg-danger text-center text-white py-1 small">
+  Welcome to  Beauty!
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-danger" href="#"> BEAUTY</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="new.html">New</a></li>
+        <li class="nav-item"><a class="nav-link" href="skincare.html">Skincare</a></li>
+        <li class="nav-item"><a class="nav-link" href="makeup.html">Make Up</a></li>
+        <li class="nav-item"><a class="nav-link" href="haircare.html">Haircare</a></li>
+        <li class="nav-item"><a class="nav-link" href="bodycare.html">Bodycare</a></li>
+        <li class="nav-item"><a class="nav-link" href="others.html">Others</a></li>
+        <li class="nav-item"><a class="nav-link" href="best-seller.html">Best Seller</a></li>
+      </ul>
+      <div class="d-flex align-items-center">
+        <a href="#" class="me-3"><i class="bi bi-search fs-5 text-secondary"></i></a>
+        <a href="#" class="me-3"><i class="bi bi-cart fs-5 text-secondary"></i></a>
+        <a href="#"><i class="bi bi-person fs-5 text-secondary"></i></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-white d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="display-3 fw-bold">DISCOVER</h1>
+        <h2 class="display-5">THE UNSEEN POWER</h2>
+        <button class="btn btn-light mt-3">Shop Now</button>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="66.jpeg" alt="Model" class="img-fluid hero-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products with tabs -->
+<section class="container my-5">
+  <ul class="nav nav-tabs justify-content-center mb-4" id="productTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="best-tab" data-bs-toggle="tab" data-bs-target="#best" type="button" role="tab">Best Seller</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab">New Arrivals</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="productTabsContent">
+    <div class="tab-pane fade show active" id="best" role="tabpanel">
+      <div class="row g-4">
+        <div class="col-sm-6 col-md-3">
+          <div class="card product-card position-relative">
+            <span class="favorite"><i class="bi bi-heart"></i></span>
+            <img src="2.jpeg" class="card-img-top">
+            <div class="card-body text-center">
+              <h6 class="mb-1">Lip oil</h6>
+              <p class="text-danger fw-bold">$15</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="card product-card position-relative">
+            <span class="favorite"><i class="bi bi-heart"></i></span>
+            <img src="3.jpeg" class="card-img-top">
+            <div class="card-body text-center">
+              <h6 class="mb-1">Lip gloss</h6>
+              <p class="text-danger fw-bold">$15</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="card product-card position-relative">
+            <span class="favorite"><i class="bi bi-heart"></i></span>
+            <img src="1.jpeg" class="card-img-top">
+            <div class="card-body text-center">
+              <h6 class="mb-1">Lip oil</h6>
+              <p class="text-danger fw-bold">$15</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="card product-card position-relative">
+            <span class="favorite"><i class="bi bi-heart"></i></span>
+            <img src="7.jpeg" class="card-img-top">
+            <div class="card-body text-center">
+              <h6 class="mb-1">Toner</h6>
+              <p class="text-danger fw-bold">$15</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="card product-card position-relative">
+            <span class="favorite"><i class="bi bi-heart"></i></span>
+            <img src="9.jpeg" class="card-img-top">
+            <div class="card-body text-center">
+              <h6 class="mb-1">Lip liner</h6>
+              <p class="text-danger fw-bold">$15</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="card product-card position-relative">
+            <span class="favorite"><i class="bi bi-heart"></i></span>
+            <img src="8.jpeg" class="card-img-top">
+            <div class="card-body text-center">
+              <h6 class="mb-1">Brush Cream</h6>
+              <p class="text-danger fw-bold">$15</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="new" role="tabpanel">
+      <p class="text-center">New arrivals will appear here.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Offers Section -->
+<section class="offers py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center mb-4">Special Offers</h3>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <img src="66.jpeg" class="img-fluid rounded" alt="Offer 1">
+      </div>
+      <div class="col-md-6">
+        <img src="32.jpeg" class="img-fluid rounded" alt="Offer 2">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Brands Section -->
+<section class="brands py-5">
+  <div class="container">
+    <h3 class="text-center mb-4">Our Brands</h3>
+    <div class="brands-slider d-flex overflow-auto pb-3">
+      <img src="35.jpeg" alt="Brand 1" class="brand-logo mx-3">
+      <img src="33.jpeg" alt="Brand 2" class="brand-logo mx-3">
+      <img src="32.jpeg" alt="Brand 3" class="brand-logo mx-3">
+      <img src="9.jpeg" alt="Brand 4" class="brand-logo mx-3">
+      <img src="35.jpeg" alt="Brand 5" class="brand-logo mx-3">
+      <img src="8.jpeg" alt="Brand 6" class="brand-logo mx-3">
+    </div>
+  </div>
+</section>
+
+<!-- Why Shop With Us -->
+<section class="why-shop py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center mb-4">Why Shop With Us</h3>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-truck fs-1 text-danger mb-2"></i>
+        <h5>Fast Shipping</h5>
+        <p>Free worldwide shipping on orders over $50.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-people fs-1 text-danger mb-2"></i>
+        <h5>Trusted Customers</h5>
+        <p>Thousands of happy customers worldwide.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-globe fs-1 text-danger mb-2"></i>
+        <h5>International Brands</h5>
+        <p>We carry top brands from around the globe.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center py-4 bg-white">
+  <a href="#" class="text-secondary small">Back to top</a>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>

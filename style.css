@@ -1,0 +1,154 @@
+:root {
+  --primary-pink: #d63384;
+  --dark-pink: #b1125b;
+  --light-pink: #f8d7e3;
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #fff;
+  color: #333;
+}
+
+.hero {
+  /* replace with actual image path or keep gradient over image */
+  background: url('hero.jpg') center/cover no-repeat, linear-gradient(to right, var(--dark-pink), var(--primary-pink));
+  height: 500px;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.4);
+}
+.hero .container {
+  z-index: 1;
+}
+
+.hero h1, .hero h2 {
+  letter-spacing: 3px;
+}
+
+.hero-img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.hero-side {
+  width: 140px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  transform: translateY(0);
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+.hero-side:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.15);
+}
+
+.navbar {
+  font-family: var(--font-family);
+}
+.navbar-brand {
+  color: var(--dark-pink) !important;
+}
+
+.navbar-nav .nav-link {
+  color: #555;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--dark-pink);
+}
+
+.product-card {
+  border: none;
+  transition: transform .3s, box-shadow .3s;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.15);
+}
+
+.favorite {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color .2s;
+}
+.favorite:hover {
+  color: #e63946;
+}
+
+/* tab underline color */
+.nav-tabs .nav-link.active {
+  color: var(--dark-pink);
+  border-color: var(--dark-pink) var(--dark-pink) #fff;
+}
+
+/* remove default bootstrap card shadow on hover */
+.card-img-top {
+  object-fit: cover;
+  height: 280px;
+  border: 3px solid #d63384;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: box-shadow .3s, border-color .3s, filter .3s;
+  filter: brightness(1.05);
+}
+.card-img-top:hover {
+  box-shadow: 0 12px 28px rgba(214, 51, 132, 0.35);
+  border-color: #b1125b;
+  filter: brightness(1.18) contrast(1.12) saturate(1.1);
+}
+
+.offers img,
+.brands-slider img {
+  transition: transform .3s;
+}
+.offers img:hover,
+.brands-slider img:hover {
+  transform: scale(1.05);
+}
+
+.brands-slider {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.brands-slider::-webkit-scrollbar {
+  display: none;
+}
+.brand-logo {
+  height: 60px;
+  object-fit: contain;
+  filter: grayscale(80%);
+  transition: filter .3s, transform .3s;
+}
+.brand-logo:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.why-shop i {
+  color: var(--dark-pink);
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: 300px;
+  }
+  .hero-img {
+    max-height: 200px;
+  }
+  .hero-side { display: none; }
+}
+
